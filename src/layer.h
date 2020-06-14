@@ -45,4 +45,10 @@ public:
 	nnLayer(int neural);
 };
 
+class Relu : public layer
+{
+public:
+	cv::Mat forward(cv::Mat);
+	cv::Mat backward(cv::Mat loss);
+};
 #endif

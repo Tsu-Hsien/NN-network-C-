@@ -56,3 +56,7 @@ Mat nnLayer::forward(Mat input){
 	input = this->add->forward(input);
 	return input;
 }
+
+Mat Relu::forward(Mat input){
+
+}
