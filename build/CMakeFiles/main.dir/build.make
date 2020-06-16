@@ -57,10 +57,24 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj: C:/Users/user/Desktop/projects/template/src/activations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj"
+	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj -c C:/Users/user/Desktop/projects/template/src/activations.cpp
+
+CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.i"
+	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/user/Desktop/projects/template/src/activations.cpp > CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.i
+
+CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.s"
+	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/user/Desktop/projects/template/src/activations.cpp -o CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.s
+
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj: C:/Users/user/Desktop/projects/template/src/layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj"
 	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj -c C:/Users/user/Desktop/projects/template/src/layer.cpp
 
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.i: cmake_force
@@ -74,7 +88,7 @@ CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.s: cma
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj: C:/Users/user/Desktop/projects/template/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj"
 	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj -c C:/Users/user/Desktop/projects/template/src/main.cpp
 
 CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.i: cmake_force
@@ -87,12 +101,14 @@ CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.s: cmak
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj" \
 "CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj" \
 "CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+C:/Users/user/Desktop/projects/template/bin/main.exe: CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj
 C:/Users/user/Desktop/projects/template/bin/main.exe: CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj
 C:/Users/user/Desktop/projects/template/bin/main.exe: CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj
 C:/Users/user/Desktop/projects/template/bin/main.exe: CMakeFiles/main.dir/build.make
@@ -115,7 +131,7 @@ C:/Users/user/Desktop/projects/template/bin/main.exe: ../lib/OpenCV348/x64/mingw
 C:/Users/user/Desktop/projects/template/bin/main.exe: ../lib/OpenCV348/x64/mingw/lib/libopencv_videostab348.dll.a
 C:/Users/user/Desktop/projects/template/bin/main.exe: CMakeFiles/main.dir/linklibs.rsp
 C:/Users/user/Desktop/projects/template/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable C:/Users/user/Desktop/projects/template/bin/main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/user/Desktop/projects/template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C:/Users/user/Desktop/projects/template/bin/main.exe"
 	D:/CMake/bin/cmake.exe -E remove -f CMakeFiles/main.dir/objects.a
 	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ar.exe" cr CMakeFiles/main.dir/objects.a @CMakeFiles/main.dir/objects1.rsp
 	"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe" -g   -Wl,--whole-archive CMakeFiles/main.dir/objects.a -Wl,--no-whole-archive  -o C:/Users/user/Desktop/projects/template/bin/main.exe -Wl,--out-implib,C:/Users/user/Desktop/projects/template/bin/libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/main.dir/linklibs.rsp

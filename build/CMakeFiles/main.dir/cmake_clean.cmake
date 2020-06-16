@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj"
   "CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj"
   "CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj"
   "C:/Users/user/Desktop/projects/template/bin/main.pdb"

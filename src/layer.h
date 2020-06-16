@@ -13,6 +13,7 @@ protected:
 public:
 	layer(cv::Mat input, int neural);
 	layer(int neural);
+	layer();
 	virtual cv::Mat forward(cv::Mat) = 0;
 	virtual cv::Mat backward(cv::Mat) = 0;
 };
@@ -48,6 +49,7 @@ public:
 class Relu : public layer
 {
 public:
+	Relu();
 	cv::Mat forward(cv::Mat);
 	cv::Mat backward(cv::Mat loss);
 };

@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+C_/Users/user/Desktop/projects/template/src/activations.obj: C_/Users/user/Desktop/projects/template/src/activations.cpp.obj
+
+.PHONY : C_/Users/user/Desktop/projects/template/src/activations.obj
+
+# target to build an object file
+C_/Users/user/Desktop/projects/template/src/activations.cpp.obj:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj
+.PHONY : C_/Users/user/Desktop/projects/template/src/activations.cpp.obj
+
+C_/Users/user/Desktop/projects/template/src/activations.i: C_/Users/user/Desktop/projects/template/src/activations.cpp.i
+
+.PHONY : C_/Users/user/Desktop/projects/template/src/activations.i
+
+# target to preprocess a source file
+C_/Users/user/Desktop/projects/template/src/activations.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.i
+.PHONY : C_/Users/user/Desktop/projects/template/src/activations.cpp.i
+
+C_/Users/user/Desktop/projects/template/src/activations.s: C_/Users/user/Desktop/projects/template/src/activations.cpp.s
+
+.PHONY : C_/Users/user/Desktop/projects/template/src/activations.s
+
+# target to generate assembly for a file
+C_/Users/user/Desktop/projects/template/src/activations.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.s
+.PHONY : C_/Users/user/Desktop/projects/template/src/activations.cpp.s
+
 C_/Users/user/Desktop/projects/template/src/layer.obj: C_/Users/user/Desktop/projects/template/src/layer.cpp.obj
 
 .PHONY : C_/Users/user/Desktop/projects/template/src/layer.obj
@@ -186,6 +213,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... rebuild_cache"
+	@echo "... C_/Users/user/Desktop/projects/template/src/activations.obj"
+	@echo "... C_/Users/user/Desktop/projects/template/src/activations.i"
+	@echo "... C_/Users/user/Desktop/projects/template/src/activations.s"
 	@echo "... C_/Users/user/Desktop/projects/template/src/layer.obj"
 	@echo "... C_/Users/user/Desktop/projects/template/src/layer.i"
 	@echo "... C_/Users/user/Desktop/projects/template/src/layer.s"

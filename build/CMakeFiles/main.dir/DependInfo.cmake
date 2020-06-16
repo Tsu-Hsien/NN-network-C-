@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/user/Desktop/projects/template/src/activations.cpp" "C:/Users/user/Desktop/projects/template/build/CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/activations.cpp.obj"
   "C:/Users/user/Desktop/projects/template/src/layer.cpp" "C:/Users/user/Desktop/projects/template/build/CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/layer.cpp.obj"
   "C:/Users/user/Desktop/projects/template/src/main.cpp" "C:/Users/user/Desktop/projects/template/build/CMakeFiles/main.dir/C_/Users/user/Desktop/projects/template/src/main.cpp.obj"
   )

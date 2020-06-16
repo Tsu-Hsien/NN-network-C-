@@ -13,18 +13,24 @@ layer::layer(int neural) {
 	this->neural = neural;
 }
 
+layer::layer(){}
+
 mutiLayer::mutiLayer(int neural) :layer( neural) {}
 
 Mat mutiLayer::backward(Mat loss) {
 	this->grad = this->input.t() * loss;
-	return loss * this->kernel.t();
+	Mat tmp = loss * this->kernel.t();
+	return tmp;
 }
 
 Mat mutiLayer::forward(Mat input) {
 	this->input = input.clone();
-	this->kernel = Mat::zeros(input.cols, neural, CV_32F);
-	randn(this->kernel, 0, 1);
-	cout << this->kernel.type() << "　" << this->input.type() << endl;
+
+	if (this->kernel.empty()){
+		this->kernel = Mat::zeros(input.cols, neural, CV_32F);
+		randn(this->kernel, 0, 1);
+	}
+
 	return this->input * this->kernel;
 }
 
@@ -32,12 +38,18 @@ addLayer::addLayer(int neural) :layer(neural) {}
 
 Mat addLayer::backward(Mat loss) {
 	this->grad =  loss;
-	return loss ;
+	return loss;
 }
 
 Mat addLayer::forward(Mat input) {
-	this->input = input;
-	this->kernel = Mat::zeros(1, this->neural, CV_32F);
+	this->input = input.clone();
+
+	if (this->kernel.empty())
+	{
+		this->kernel = Mat::zeros(1, neural, CV_32F);
+		randn(this->kernel, 0, 1);
+	}
+
 	return this->input + this->kernel;
 }
 
@@ -48,7 +60,9 @@ nnLayer::nnLayer(int neural):layer(neural){
 }
 
 Mat nnLayer::backward(Mat loss) {
-	return loss ;
+	loss = this->add->backward(loss);
+	loss = this->multi->backward(loss);
+	return loss;
 }
 
 Mat nnLayer::forward(Mat input){
@@ -57,6 +71,3 @@ Mat nnLayer::forward(Mat input){
 	return input;
 }
 
-Mat Relu::forward(Mat input){
-
-}
